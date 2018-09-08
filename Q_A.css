@@ -1,0 +1,123 @@
+.header {
+    background: no-repeat center center scroll;
+    background-image: url(../picture/img_Q&A/Banner1024.png);
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+}
+
+.header .tt {
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 300px auto 0 auto;
+}
+
+.header .tt h1 {
+    color: #fff;
+}
+
+#content {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+h4 {
+    color: #ff6699;
+    font-weight: bold;
+}
+
+.flip {
+    top: -50%;
+    height: 100%;
+    float: left;
+}
+
+.panel {
+    display: none;
+    margin: auto;
+}
+
+.Q {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    padding-top: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.Q .hoi {
+    width: 10%;
+    text-align: center;
+}
+
+.Q p {
+    float: left;
+}
+
+.Q .Hoi {
+    width: 15%;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.Q .Hoi2 {
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.Q .flip {
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.r-QA {
+    width: 70%;
+    border: 2px solid #e1e1e1;
+    margin: auto;
+    color: #000;
+}
+
+#r_QA .col-md-3 {
+    width: 100%;
+}
+
+#r_QA p {
+    text-align: left;
+}
+
+.panel {
+    margin-left: 15%;
+    text-align: left;
+    width: 85%;
+}
+
+.TL {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .r-QA {
+        width: 95%;
+        margin: auto;
+    }
+    .Q {
+        height: 230px;
+    }
+    .header .tt {
+        width: 100%;
+    }
+    .tt h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

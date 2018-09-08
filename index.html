@@ -1,79 +1,854 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	<title> Example </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link rel="stylesheet" href="vendor/bootstrap.css"> -->
-	<link rel="stylesheet" href="vendor/font-awesome.css">
-	<link rel="stylesheet" href="1.css">
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://theme.hstatic.net/1000061125/1000364405/14/favicon.png?v=201" type="image/png">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/content.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login-form.css">
+    <script src="js/login-js.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/account.js"></script>
+    <script src="js/slide-js.js"></script>
+    <script src="js/home.js"></script>
+
+    <title>Áo ngực, quần lót, đầm ngủ, đồ bộ, đồ bơi, áo choàng – Wannabe</title>
 </head>
-<body >
-	<header>
-		<div class="top">
-			<a class="fa fa-location-arrow padding">17-21 Elizabeth Street  Belgravia/Victoria London  SW1W 9RP </a>
-			<a href="#" class="fa fa-phone padding">020 7324 7705</a>
-			<a class="fa fa-clock">Mon - Sat:  8am - 8pm || Sun:  9am - 8pm	
-			</a>
-			<a href="#" class="fa fa-twitter cam"></a>
-			<a href="#" class="fa fa-facebook cam"></a>
-			<a href="#" class="fa fa-instagram cam"></a>
-			
-		</div>
-	</header><!-- end header -->
 
-	<nav>
-		<div class="logo">
-			<img src="image/logo.png" alt="">
-		</div><!-- end logo -->
-		<div class="menu">
-			<ul>
-				<li><a href="#">HOME <hr></a></li>
-				<li><a href="#">ABOUT <hr></a></li>
-				<li><a href="#">AFTERNOON TEA <hr></a></li>
-				<li><a href="#">CRONUT® <hr></a></li>
-				<li><a href="#">CHEF <hr></a></li>
-				<li><a href="#">EVENTS <hr></a></li>
-				<li><a href="#">FAQ <hr></a></li>
-				<li><a href="#">NEWS <hr></a></li>
-				<li><a href="#">CONTACT <hr></a></li>
-				<li><a href="#">SHOP<hr></a> </li>
-			</ul>
-		</div><!-- end menu -->
-	</nav><!--  end nav -->
+<body>
+    <p id="back-to-top">
+        <a href="#">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </p>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="nav_bar visible-lg visible-md hidden-sm hidden-xs">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <!-- <div class="search_bar">
+                                <div class="search-box">
+                                    <input type="text" />
+                                    <span></span>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="main_menu">
+                                <ul>
+                                    <li class="menu_item">
+                                        <a href="products.html">sản phẩm</a>
+                                        <div class="sub-menu-nav">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <ul>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Hàng mới</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Áo ngực</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Quần lót</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Nội y bộ</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <ul>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Áo choàng ngủ</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Đầm ngủ</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Đồ mặc ở nhà</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Phụ kiện</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <ul>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Sexy and Chics</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Cô dâu</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="products.html">Sport</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="hover-bg-sanpham">
+                                                        <img src="picture/img_HomePage/BG.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="#">hàng sắp về</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="Lookbook.html">lookbook</a>
+                                    </li>
+                                    <li class="menu_item logo_menu">
+                                        <a href="index.html">
+                                            <img src="picture/img_HomePage/Logo_white.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="Sale.html">khuyến mãi</a>
+                                    </li>
+                                    <!-- <li class="menu_item">
+                                        <a href="#">hỗ trợ</a>
+                                        <div class="sub-menu-nav">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="hover-bg-sanpham">
+                                                        <img src="picture/img_HomePage/Move.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <ul>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="About.html">Giới tiệu về Wannabe</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="Letter.html">Thông tin hợp tác</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="hiring.html">Tuyển dụng</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <ul>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="Q&A.html">Những câu hỏi thường gặp</a>
+                                                        </li>
+                                                        <li class="sub-menu-nav-item">
+                                                            <a href="policy.html">Chính sách bảo mật</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li> -->
+                                    <li class="menu_item">
+                                        <a href="shop.html">cửa hàng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <div class="cart_bar">
+                                <ul>
+                                    <li onclick="openLoginForm()" class="user_item" style="cursor: pointer;">
+                                        <img src="picture/img_HomePage/user-shape.png" alt="">
+                                    </li>
+                                    <a href="giohang.html">
+                                        <li class="cart_item">
 
-	<!-- định nghĩa phần section -->
-	<section>
-		<div>
-			<img src="image/kich.png" alt="" class="nutvang">
-			<h2>BREAKFAST, LUNCH, AFTERNOON TEA, DESSERT</h2>
-			<hr>
-		</div>
-		<h1>Welcome to our London shop!</h1>
-		<article>
-			<img src="image/food-croissants.jpg" alt="">
-		</article><!--  end article -->
-		<article>
-			<img src="image/food-croissants.jpg" alt="">
-		</article><!--  end article -->
-		<article>
-			<img src="image/food-croissants.jpg" alt="">
-		</article><!--  end article -->
-		<article>
-			<img src="image/food-croissants.jpg" alt="">
-		</article><!--  end article -->
-		<article>
-			<img src="image/food-croissants.jpg" alt="">
-		</article><!--  end article -->
-		<article>
-			<img src="image/food-croissants.jpg" alt="">
-		</article><!--  end article -->
-	</section><!-- end section -->
-	<footer>
-		
-	</footer> <!-- end footer -->
+                                            <img src="picture/img_HomePage/shopping-cart.png" alt="">
+                                            <span class="cart_quantity"></span>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_bar visible-xs visible-sm hidden-lg hidden-md" style="text-align: center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="header-icon col-xs-3 col-sm-3 col-md-3 col-lg-2">
+                            <span onclick="OpenNavMobile()" class="toggle-nav hidden-lg" data-target="mobile-menu">
+                                <img src="picture/img_HomePage/Menu.png" alt="" style="width: 18px; height: 14px; left: 0; position: absolute; top: 30%;">
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 logo_menu">
+                            <a href="index.html">
+                                <img src="picture/img_HomePage/Logo_white.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3">
+                            <div class="cart_bar">
+                                <ul>
+                                    <a href="giohang.html">
+                                        <li class="cart_item">
+                                            <img src="picture/img_HomePage/shopping-cart.png" alt="">
+                                            <span class="cart_quantity"></span>
+                                        </li>
+                                    </a>
 
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="1.js"></script>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu" class="side-menu mobile-menu has-top-content has-bottom-content">
+                <div class="mobile-menu-inner">
+                    <form role="search" method="get" class="search-form" action="http://demo.uix.store/sober/">
+                        <label>
+                            <span class="screen-reader-text">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Search" value="" name="s"> </label>
+                        <button type="submit" class="search-submit">
+                            <span class="screen-reader-text">Search</span>
+                            <svg width="20" height="20">
+                                <use xlink:href="#search"></use>
+                            </svg>
+                        </button>
+                    </form>
+                    <nav id="mobile-nav" class="mobile-nav">
+                        <ul id="menu-primary-menu-1" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-557 menu-item-mega">
+                                <a href="products.html">Sản phẩm</a>
+                                <button class="toggle">
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-41">
+                                        <a href="#">Hàng mới</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1899">
+                                        <a href="">Áo ngực</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1900">
+                                        <a href="">Quần lót</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1904">
+                                        <a href="">Nội y bộ</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1905">
+                                        <a href="">Áo choàng ngủ</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1906">
+                                        <a href="">Đầm ngủ</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1907">
+                                        <a href="">Đồ mặc ở nhà</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1908">
+                                        <a href="">Phụ kiện</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1909">
+                                        <a href="#">Sexy and Chics</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1910">
+                                        <a href="#">Cô dâu</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2590">
+                                        <a href="#">Sport</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45 menu-item-mega menu-item-has-background">
+                                <a href="#">Hàng sắp về</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1897 menu-item-mega">
+                                <a href="#">lookbook</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-359">
+                                <a href="#">Khuyến mại</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1898 menu-item-mega">
+                                <a href="#">Hỗ trợ</a>
+                                <button class="toggle">
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2169">
+                                        <a href="#">Giới tiệu về Wannabe</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2170">
+                                        <a href="r">Thông tin hợp tác</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2171">
+                                        <a href="#">Tuyển dụng</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174">
+                                        <a href="http://demo.uix.store/sober/2016/09/28/a-guide-to-the-best-accessories-for-fall/?layout_post=single-right">Những câu hỏi thường gặp</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2174">
+                                        <a href="#">Chính sách bảo mật</a>
+                                        <button class="toggle">
+                                            <span class="caret"></span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45 menu-item-mega menu-item-has-background">
+                                <a href="#">Cửa hàng </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu-bottom">
+                        <ul>
+                            <li class="item-cart">
+                                <a href="#">
+                                    <svg viewBox="0 0 20 20">
+                                        <use xlink:href="#basket-addtocart"></use>
+                                    </svg>
+                                    <span>Giỏ hàng</span>
+                                    <span class="count cart-counter">0</span>
+                                </a>
+                            </li>
+                            <li class="item-login">
+                                <a onclick="openLoginForm()">
+                                    <svg viewBox="0 0 20 20">
+                                        <use xlink:href="#user-account-people"></use>
+                                    </svg>
+                                    <span onclick="openLoginForm()">Đăng nhập</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--slide-->
+            <div id="carouselExampleIndicators" style="z-index: 0;" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-caption">
+                    <h1>Buy Bra
+                        <br> Get Panty</h1>
+                    <a>
+                        Xem thêm >
+                    </a>
+                </div>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active" style="background-image: url('picture/img_HomePage/Slide-1.png')">
+
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url('picture/img_HomePage/Slide-2.jpg')">
+
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url('picture/img_HomePage/Slide-3.jpg')">
+
+                    </div>
+                </div>
+            </div>
+            <!--end slide-->
+
+        </div>
+    </div>
+    <div id="content">
+        <div id="login-form" class="modal">
+            <div class="modal-content" style="padding-bottom: 50px">
+                <div>
+                    <span class="close-login cursor" onclick="closeLoginForm()">&times;</span>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">
+                            <a>Đăng nhập</a>
+                        </button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">
+                            <a>Đăng ký</a>
+                        </button>
+                    </div>
+                    <div id="London" class="tabcontent" style="display: block">
+                        <input name="email" type="text" placeholder="Email" />
+                        <br>
+                        <br>
+                        <input name="password" type="password" placeholder="Password" />
+                        <br>
+                        <br>
+                        <label class="ctn">Ghi nhớ mật khẩu
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <button class="btn-login" style="width: 100%" type="submit">ĐĂNG NHẬP</button>
+                        <br>
+                        <br>
+                        <a href="#">Quên mật khẩu của bạn</a>
+                    </div>
+                    <div id="Paris" class="tabcontent">
+                        <input name="res-email" type="text" placeholder="Email" />
+                        <br>
+                        <br>
+                        <input name="res-password" type="password" placeholder="Password" />
+                        <br>
+                        <br>
+                        <input name="repassword" type="password" placeholder="Nhập lại mật khẩu" />
+                        <br>
+                        <br>
+                        <button class="btn-register" type="submit">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="vc_row wpb_row vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="sober-category-banner text-position-top-left image-bottom-left  ">
+                                <div class="banner-inner">
+                                    <a href="#" class="banner-image" style="background-image: url(https://lh3.googleusercontent.com/YLGnJrBnLJEN1CMJbuHj6TdRmiL67V37GWbg-wpvh76xfq_jveDZNIipWlNm-E2mK0IS-vca-sA_zI_W3GgiGo8cdHh-WoHL_Z9X8sFY2e1xDyoSe_tEkY2f8zYrYFKnf2ET7wxkoZ5A0BqC_U2Nb4wGnuzWlOikbXOG3r_wSEHykEP79q0LECKWvgKTu6FO9uSsUow7ZuaqeTJtf8lTuUFGLfSVbe-4kpJJocS7Va1w9G4KMHOHtX-Blf0xzGDZdk3ayXYSdBkQcQ2OBq-NhF694KTuy6-UF9O_gTEySGVL_pNKfkWF1RBfMbnTWUyqCu4sjnON-i4_eCJinFttsVl0DVDVhQXFsH5pH8UpPAylESGc0bfBmZhZ7niHjxT--OyilBCyCsXtdQjsi0TrVpLP-Hmb4EX0ga0vQ4hDiVR2y1W7O-ZCVrVWSlmx2w8H84BamSwwSQI4wv1x9BG_D8Kp8vX5xgy-BG14VmhulwEqlYsSLkKWU0_gPhqLh2Amz9nfP0OnooWYsXqBKzyG5Ea9-YwvsJL2pzF1eyCcr9hsYKwwa55HfgU3shPYeZ47EaRWweP8fHP3aaOz05oFk83HUEXO_elwWjd6cKo=s586-no);">
+                                        <img alt="420" src="picture/img_HomePage/quanlot.png">
+                                    </a>
+                                    <div class="banner-content">
+                                        <h2 class="banner-title">Quần lót</h2>
+                                        <div class="banner-text">Phụ nữ thông minh: đánh phấn, không đánh ghen</div>
+                                        <a href="#" class="sober-button button-light line-hover active">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="sober-category-banner text-position-bottom-left image-top  ">
+                                <div class="banner-inner">
+                                    <a href="#" class="banner-image" style="background-image: url(https://lh3.googleusercontent.com/EOR_ls1ddPAEY5S_62_yKVMQUHAbRMwW_Hxz9UwY0xNm_oWGFD8ftPkka5gO06G9DDBVG2Fi2UJ8sLNO_AFxDrnamFk7KV37LtdV2SmH1wXplZG7HQvsrLSRUmShh1xr-YFHxLsyB81w08MyipJz2laVjizPUC8LK-e5cxn6dYklvAnbZnn8et1ANYPEyefAEQt99n0BLlrRi7LNIAUqmrX5aKmCNXLAgjtN-3g4EDluNLWGuidDfvy0Bk3AixOQwUabsOu88g98Oh2H03WeoSuFJ4usFQUdJSk-I8cfxnc6P1JgkMObDsi-6LrW7NEZ4zwkcItLKbQoFPfkg3yhYl3co_U9NhFfo-iarZgAYKAhjV0B4eq1skv4PXMvDI5IYxgNEKnX8HDRY4vb5B4l80Lgb46G-3KVjOAZmGx_iJDhM0hePewfNvC5ykJqK7VC5ZMXDLftHrJHSOO17h6koOpfvLg0om1rJZ6Qfqp3cQbGt5eBDGAZ0-q7bfU5J2wCbfNuf1XdUhcWibJwsMu5ciCMD1hW7OgmBtibBwif-viurk2cDmA3VzzVL9bDOwLcsfAcrJfhkSW_SdpISh899AIdEASGdw8v5fL7Z3s=w892-h637-no);">
+                                        <img alt="421" src="picture/img_HomePage/aonguc.png">
+                                    </a>
+                                    <div class="banner-content">
+                                        <h2 class="banner-title">Áo ngực</h2>
+                                        <div class="banner-text">Phụ nữ khôn ngoan: giữ sắc, không giữ chồng</div>
+                                        <a href="#" class="sober-button button-light line-hover active">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vc_row wpb_row vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="sober-category-banner text-position-middle-left image-right  ">
+                                <div class="banner-inner">
+                                    <a href="#" class="banner-image" style="background-image: url(https://lh3.googleusercontent.com/NYL5uHrie68EF_w5vzBiy4GE72TotmkiB-7bi9CNJa9DGsm3GxBx74ego2WofOJIUmouU46rAI-vso18nK_kjSf6ZTCYBYE3wf0iX_H3cZaJol5UUfP94EQ9JztjON9UQIK-2BVNbN2j0DMg-r7fils3Scu3tKrO1DlwVrUFmmRaxCBlL8TEcAEnFqgMr6tIaFrC9wr_J54SLZ4j6q_ZHZsH7yWo3ei9XG-Y5vsuh-_QjLVCaZbf6-qdhy0gkBXlOGeX5zrFHmvLMQM9JXePVexLw391L-afXYHRazMZzC__NcgHmrTqZMwDrbbmlTgYoSbF2NoUc3vw1E0fOXM571b5SB-QEX44AU56wnZ8w7b151WQpHTVJEcv5H5sNTbOf7_hkIIzSUXY6Xz4FZAsRyulXTjfrHw5fy6eR9gHn0aK68S_YOqQFSdumAlh_1A0FeyTNhZvID3GUYFUnTKkfHda_ZqhfpRWRL7B24IQom9-QKgunoUvNpovdFcS-tGwaf6X3FkhWZpWEB1VWpB2vGDpaqDnPyZbuEe-nb_NGUh8r-6jwFUMJkTf06iZSjVypQmfy-8IqAun91YfPpYPFvQ6ihVix1Xkw4PZ9Yo=w472-h637-no);">
+                                        <img alt="422" src="picture/img_HomePage/damngu.png">
+                                    </a>
+                                    <div class="banner-content">
+                                        <h2 class="banner-title">Đâm ngủ</h2>
+                                        <div class="banner-text">90% đàn ông thú nhận rằng họ muốn vợ đẹp ngay cả khi đi ngủ, 10% còn lại thuộc về
+                                            hành tinh khác</div>
+                                        <a href="#" class="sober-button button-light line-hover active">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="sober-category-banner text-position-bottom-right image-top-left  ">
+                                <div class="banner-inner">
+                                    <a href="#" class="banner-image" style="background-image: url(https://lh3.googleusercontent.com/93AIZpes7eIISU3HtW37_E9cEdtZ4s4JmXfNsLeELxwhc4oGUBhPKFzk6YCe3EhaG2zAmXzmGa20K35hdnZ3WU-wTRgN4r0c1vszFMv97_e8f21Y2ELxkO3GIsdT7bRl96qAcNmsQ4griv9eGKxOYME6J_2X1jSAEgBx-k7okLYMkczRgQRzuR1whktDtThjxyukbTUI-BOo0_sb7zSGH0BrSDFNFNHdSaPKbthEAWOAfZnV1l1J0c_Yn9K4wyuENvT6yv8_oppWDBj4wWuR-OxRiyaNBLx1L1Fo44OoeuFB1py6Csz77u9n-RxrdNuSfgzzuFniQfTjdAn1EVucZ-m9ZwO-uQG4jyCSDNrMQdg-Xb9JVmnVxDdB4Z7GUwl0b-pgBuimwm1pNFbi2rIHIf_lHZ5c4laWa1zmBiQ_Gbsq5emdCUlNcK_px7WU-Y-h7S_9OnlsH0C8CumhJLrDaulwGw4l2Ts7tnjrIR3KsbCLeNMe94aqvRcJZp0yzbqzNWn630jvIZY6qlqHoNQhxJgSOnj6-972-9xSreLZrfXYl49Zl4CtNjZgjtk_wINgxGjq8cs4-goSXgrtTubMM8Uuf4lcuW0mTc4RcBQ=w588-h590-no);">
+                                        <img alt="423" src="picture/img_HomePage/macnha.png">
+                                    </a>
+                                    <div class="banner-content">
+                                        <h2 class="banner-title">Bộ đồ mặc nhà</h2>
+                                        <div class="banner-text">Luôn yêu chiều bản thân, luôn thông minh và nhẹ nhành sẽ khiến chàng yêu và say đắm
+                                            bạn cả đời</div>
+                                        <a href="#" class="sober-button button-light line-hover active">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vc_row wpb_row vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="sober-category-banner text-position-top-right image-bottom  ">
+                                <div class="banner-inner">
+                                    <a href="#" class="banner-image" style="background-image: url(https://lh3.googleusercontent.com/l38LdWDnP49xc9mtX8Jb4vYoFdCO0ioMR-UqHFeTRFthPsVExVwnKf9YXKnB4wkKlOPcO8sMbrR0k4Z0EQ7ceAb9K7hdO7tnENDhrezEUbdWOyh6pCvu-NlJgGep5kVfoc_p1OXrn3M9I_Dg17MGvUxEO4Iy_NUr-pl8thEQrxh_CG3kqDQijjr4ad-wF8MJeN4EHzxnQKa6xj_mXhE7aqpbUfAekFp-YcZc9uR5oLGFCQkzKuCC8H69hE2Yn9zZ48VV85nRNyMXs8tm05MIzXpTiSkykxYkzrkmm6yY9NQonvmX3UgBTzB0DB_ljQ-Ag8-FFkEPPhc3BMxDMUiDn-mt0p351b1GSHq-Ge6JfRG7p8M8BM3Rd9ra0luD3W034MmE2Du2WrrqLDnA_-eBeg6L08HMN1jAcuPy85QoBVGJYPyp5v7YsPNkYSnrNJw1NTwbqqvVUq8x4UMWtVwvcKAu-bwejjknBT-9ntrrk5KRNp49MeMio2yK9e2r1jdx4kDrzH8y0kMESKgvaL5l_zeHjqCl5pgp3kJBwk05YvSbbdajyliZvsIaVuOBSNn42eZQG_cFn78QWdIkZaI7aLaEY8eppcJh0JflKRE=s800);">
+                                        <img alt="424" src="picture/img_HomePage/phukien.png">
+                                    </a>
+                                    <div class="banner-content">
+                                        <h2 class="banner-title">Phụ kiện</h2>
+                                        <div class="banner-text">Hãy tinh tế, tự tin, sexy với những bộ nội y mỏng manh gợi cảm để khiến chàng "phát
+                                            điên" vì bạn</div>
+                                        <a href="#" class="sober-button button-light line-hover active">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="sober-category-banner text-position-bottom-left image-top-right  ">
+                                <div class="banner-inner">
+                                    <a href="#" class="banner-image" style="background-image: url(https://lh3.googleusercontent.com/oOznfgiUJpoy-XKsAOi1J1mHNNC-l5FeVwM7yQOdiyoglLnuXXpJpInxHFJymDm1nBGtRXTmXDdvKgWYtoWCFDdN3KlWdC1y1kBQiJpKI4JloERSFzBeD1mYcGNMiTNwc4CHO51O13xPJ66XviycecdObpQ1vO0gmw7QBdwFPZl8T4TfgBOHuc3wkREtZtLMfxcbMWXjNUM4fbdYYCV1izj54tmH6my8-L6XNtMXHCZh-n9jZXK-vSnB0rdiBreSf1yCAU0vXrzbouW42IBv4qT83QJ54Ns-xc39zrlMeE9azcohzI4hhNS-nqwzs-iC26kX0B0kG0mVk_kcIGryQ-qzQWD9XifPg3havv-KaK3_wTVMEEh_LysAfNe0GMzi5PoLBfmlGBlNZvxcxY33Y6H1v_UqzJI5kRd9nFOnYZ77vYECmibXcKkC86NDsdSeIHNSAO3zxTlpsfpwheyVavZPn-Ln0OhnLjrtYPTJE_IfOPr5rwxpF3I5XI8WjvXU_RGvZdlomSNg3VGz1Dh8xlLfalUiFqDu-pmiK3xQdUF2q6tIfC0wgwqHjcWD9zISfVtUt-tibHrdgRdXC2R9wmtEV-VXpBu2lHtu4t4=w393-h390-no);">
+                                        <img alt="425" src="picture/img_HomePage/aochoang.png">
+                                    </a>
+                                    <div class="banner-content">
+                                        <h2 class="banner-title">Áo choàng</h2>
+                                        <div class="banner-text">Sai lầm lớn nhất của người phụ nữ chính là nghĩ rằng: "yêu nhau lâu rồi thì không
+                                            cần phải điệu". Bạn vô tình lãng quên: "ngày đầu tiên đàn ông đến, thứ đầu tiên
+                                            họ thấy là diện mạo xinh đẹp, duyên dáng của bạn.</div>
+                                        <a href="#" class="sober-button button-light line-hover active">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vc_row wpb_row vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="vc_empty_space" style="height: 100px">
+                                <span class="vc_empty_space_inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="login-form" class="modal">
+                <div class="modal-content" style="padding-bottom: 50px">
+                    <div>
+                        <span class="close cursor" onclick="closeLoginForm()">&times;</span>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'London')">
+                                <a>Đăng nhập</a>
+                            </button>
+                            <button class="tablinks" onclick="openCity(event, 'Paris')">
+                                <a>Đăng ký</a>
+                            </button>
+                        </div>
+                        <div id="London" class="tabcontent" style="display: block">
+                            <input type="text" name="email" placeholder="Email" />
+                            <br>
+                            <br>
+                            <input type="password" name="password" placeholder="Mật khẩu" />
+                            <br>
+                            <br>
+                            <label class="ctn">Ghi nhớ mật khẩu
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <button class="btn-login" type="submit">ĐĂNG NHẬP</button>
+                            <br>
+                            <br>
+                            <a href="#">Quên mật khẩu của bạn</a>
+                        </div>
+                        <div id="Paris" class="tabcontent">
+                            <input type="text" name="res-email" placeholder="Email" />
+                            <br>
+                            <br>
+                            <input type="password" name="res-password" placeholder="Mật khẩu" />
+                            <br>
+                            <br>
+                            <input type="password" name="repassword" placeholder="Nhập lại mật khẩu" />
+                            <br>
+                            <br>
+                            <button type="submit" class="btn-register">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="content-container">
+                    <h3>Nhận thông tin khuyến mãi</h3>
+                    <p>Đăng ký để nhận những thông tin mới nhất từ Wannabe </p>
+                    <script>
+                        (function () {
+                            if (!window.mc4wp) {
+                                window.mc4wp = {
+                                    listeners: [],
+                                    forms: {
+                                        on: function (event, callback) {
+                                            window.mc4wp.listeners.push({
+                                                event: event,
+                                                callback: callback
+                                            });
+                                        }
+                                    }
+                                }
+                            }
+                        })();
+                    </script>
+                    <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-306" method="post" data-id="306" data-name="Newsletter">
+                        <div class="mc4wp-form-fields">
+                            <input class="email" type="email" name="EMAIL" placeholder="Nhập địa chỉ email của bạn" required="">
+                            <input type="submit" value="Đăng kí" class="form-btn">
+                        </div>
+                        <label style="display: none !important;">Leave this field empty if you're human:
+                            <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off">
+                        </label>
+                        <input type="hidden" name="_mc4wp_timestamp" value="1524914092">
+                        <input type="hidden" name="_mc4wp_form_id" value="306">
+                        <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                        <div class="mc4wp-response"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12 ">
+                            <div class="top-col1 topcol botcol">
+                                <div class="box-1 box">
+                                    <h3>
+                                        THÔNG TIN LIÊN HỆ
+                                    </h3>
+                                    <div class="img_footer">
+                                        <img src="picture/img_footer/Add.png" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>H20, Đường số 4, KDC Phú Mỹ Chợ Lớn, Phường Phú Mỹ, Quận 7, TP. Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                                <div class="box-2 box">
+                                    <div class="img_footer">
+                                        <img src="picture/img_footer/Tel.png" alt="" />
+
+                                    </div>
+                                    <div>
+                                        <span>1900 636758</span>
+
+                                        <span>0964291414 (Kinh Doanh)</span>
+
+                                        <span>0982098098 (Phản Hồi)</span>
+                                    </div>
+
+                                </div>
+                                <div class="box-3 box">
+                                    <div class="img_footer">
+                                        <img src="picture/img_footer/Mail.png" alt="" />
+                                    </div>
+                                    <div>
+                                        <span>
+                                            support@wannabe.com.vn</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 ">
+                            <div class="top-col1 topcol botcol">
+                                <div class="box-1 box">
+                                    <h3>
+                                        Thời gian làm việc
+                                    </h3>
+                                    <span>Văn phòng: 8:00 - 17:00 (thứ 2 - sáng thứ 7)</span>
+                                    <span>Cửa hàng: 8:30 - 21:30 (thứ 2 - chủ nhật)</span>
+                                </div>
+                                <div class="box-2 box">
+                                    <h3>
+                                        Thời gian giao hàng
+                                    </h3>
+
+                                    <span>HCM: từ 3 - 5 ngày</span>
+
+
+                                    <span>Khác: từ 5 - 7 ngày</span>
+
+
+                                    <span>Gấp: liên hệ 1900 636758</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 ">
+                            <div class="top-col1 topcol botcol">
+                                <div class="box-1 box">
+                                    <h3>
+                                        Dịch vụ thanh toán
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <img src="https://theme.hstatic.net/1000061125/1000364405/14/pay1.png?v=201" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="https://theme.hstatic.net/1000061125/1000364405/14/pay2.png?v=201" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="https://theme.hstatic.net/1000061125/1000364405/14/pay3.png?v=201" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="box-2 box">
+                                    <h3>
+                                        Đối tác vận chuyển
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <img src="https://theme.hstatic.net/1000061125/1000364405/14/dt1.png?v=201" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="https://theme.hstatic.net/1000061125/1000364405/14/dt2.png?v=201" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="https://theme.hstatic.net/1000061125/1000364405/14/dt3.png?v=201" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="box-5 box">
+                                    <a href="#">
+                                        <img src="https://theme.hstatic.net/1000061125/1000364405/14/bocongthuong.png?v=201" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row shipping-footer">
+                        <div class="col-md-4 col-sm-4 col-xs-12 ">
+                            <div class="top-col1 topcol botcol">
+                                <div class="box-4 ">
+                                    <div class="box-img">
+                                        <img src="https://theme.hstatic.net/1000061125/1000364405/14/doi-tra-hang.png?v=201" alt="">
+                                    </div>
+                                </div>
+                                <div class="" style="color: #C8C8C8;padding-left: 55px;line-height: 20px;">Đổi trong vòng 3 ngày</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 ">
+                            <div class="top-col1 topcol botcol">
+                                <div class="box-4 shipping">
+                                    <div class="box-img">
+                                        <img src="https://theme.hstatic.net/1000061125/1000364405/14/icon-van_chuyen.png?v=201" alt="">
+                                    </div>
+                                </div>
+                                <div class="" style="color: #C8C8C8;padding-left: 55px;line-height: 20px;">Miễn phí vận chuyển đơn hàng 350.000vnđ</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 ">
+                            <div class="top-col1 topcol botcol">
+                                <div class="box-4">
+                                    <div class="box-img">
+                                        <img src="https://theme.hstatic.net/1000061125/1000364405/14/icon-cash.png?v=201" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="" style="color: #C8C8C8;padding-left: 55px;line-height: 20px;">Thanh toán khi nhận hàng</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-ft">
+            <div class="container">
+                <div class="footer_container">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="content-dk">
+                            <h3>©2018 CÔNG TY NỮ HOÀNG THỜI TRANG</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="socical">
+                            <ul>
+                                <li class="zalo">
+                                    <a href="http://shop.zalo.me/store?pageId=1832184200647595920&amp;src=welcomemsg" target="_blank">
+                                        <img src="picture/img_footer/Zalo.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/wannabe.com.vn" target="_blank">
+                                        <img src="picture/img_footer/FB.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="mobile">
+                                    <a href="https://twitter.com/WannabeLingerie" target="_blank">
+                                        <img src="picture/img_footer/Twitter.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.instagram.com/wannabe.lingerie" target="_blank">
+                                        <img src="picture/img_footer/IG.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="youtube">
+                                    <a href="https://www.youtube.com/channel/UC4uBsv7AMAj3QAshpJgI3rA" target="_blank">
+                                        <img src="picture/img_footer/YT.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,259 @@
+/* #region temp*/
+
+#content {
+    margin-top: 50px;
+}
+
+.header .container-fluid {
+    padding: 0 0;
+}
+
+/* #endregion */
+
+/* #region global*/
+
+ul {
+    list-style-type: none;
+}
+
+/* #endregion */
+
+/* #region nav*/
+
+.logo_menu a {
+    font-size: 25pt !important;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+}
+
+.sub-menu-nav {
+    position: absolute;
+    background-color: white;
+    z-index: 11;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 850px;
+    top: 95px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.display-sub-menu-nav {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu-nav div>ul {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.sub-menu-nav div>ul>li {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.sub-menu-nav div {
+    text-align: left;
+}
+
+.cart_bar {
+    margin-top: 25px;
+}
+
+.nav_bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    z-index: 10;
+    transition: all 500ms ease;
+}
+
+.nav_bar ul {
+    text-align: center;
+}
+
+.menu_item {
+    display: -webkit-inline-flex;
+    margin-right: 20px;
+}
+
+.cart_bar li {
+    display: -webkit-inline-flex;
+    margin-right: 5px;
+    width: 24px;
+    height: 26px;
+}
+
+.menu_item>a {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 600;
+    color: black;
+    transition: all 500ms ease;
+}
+
+.hover_menu {
+    background: white;
+    transition: all 500ms ease;
+}
+
+.hover_menu_a {
+    color: black !important;
+    transition: all 500ms ease;
+}
+
+.main_menu>ul {
+    margin: 0;
+    padding-bottom: 21px;
+}
+
+/* #endregion */
+
+/* #region search*/
+
+.search_bar {
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    transform: translate(-50%);
+}
+
+.search-box input[type="text"] {
+    border: none;
+    background: none;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    transition: all 0.25s ease-in 0.25s;
+    color: transparent;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.search-box input[type="text"]:hover {
+    cursor: pointer;
+}
+
+.search-box input[type="text"]:hover:focus {
+    cursor: text;
+}
+
+.search-box input[type="text"]:hover+span {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.search-box input[type="text"]:focus {
+    width: 200px;
+    padding: 0 10px;
+    outline: none;
+    color: black;
+    background: none;
+    color: black;
+}
+
+.search-box input[type="text"]:focus+span {
+    width: 200px;
+}
+
+.search-box input[type="text"]:focus+span::before {
+    width: 2px;
+    opacity: 0;
+    transition: all 0.25s ease-in;
+}
+
+.search-box input[type="text"]+span {
+    z-index: -1;
+    position: absolute;
+    border: 2px solid black;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    transition: all 0.25s ease-in 0.25s;
+    border-radius: 25px;
+    left: 0;
+}
+
+.hover_menu_search-box {
+    border: 2px solid black !important;
+}
+
+.hover_menu_search-box:before {
+    background: black !important;
+}
+
+.hover_menu_search-box_focus:focus {
+    color: black !important;
+}
+
+.search-box input[type="text"]+span::before {
+    transition: all 0.25s ease-in 0.5s;
+    transform-origin: left top;
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 5px;
+    background: black;
+    transform: rotate(45deg) translate(26px, -2px);
+}
+
+/* #endregion */
+
+/* #region slide*/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel slide {
+    position: relative;
+}
+
+.carousel-caption {
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    margin-left: 0;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    bottom: 40%;
+}
+
+.carousel-caption h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    line-height: 60px;
+}
+
+.carousel-caption a {
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.carousel-caption a:hover {
+    background-color: white;
+    color: black !important;
+}
+
+/* #endregion */
