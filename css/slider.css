@@ -48,8 +48,20 @@
 }
 .ei-title{
 	position: absolute;
-	right: 25%;
-	top: 15%;
+	right: 5%;
+	top: 33%;
+	background: rgba(0,0,0,0.4);
+	padding: 10px;
+}
+.ei-title h2 {
+	color: white !important;
+	font-size: 1.4em !important;
+	font-weight: bold !important;
+}
+.ei-title h3 {
+	color: white !important;
+	font-size: 1.1em !important;
+	text-transform: 
 }
 .btn{
 	background: #57C5A0;
@@ -268,13 +280,13 @@
 		right: 5%;
 		top: 10%;*/
 		left: 1%;
-		top: 54%
+		top: 55%;
+		padding: 3px;
 	}
 	.ei-slider-large li div.ei-title {
 		font-size: 12px;
 	}
-	.ei_icons{
-	padding: 15px 13px;
+	.ei_icons{	
 	background: #ffffff;
 	}
 	.slider {
@@ -283,7 +295,7 @@
 	.image1_of_3 span {
 		top: -50px;
 	}
-}
+}/*
 @media only screen and (max-width: 320px) {
 	.wrap{
 		width:95%;
@@ -311,4 +323,4 @@
 		margin-left: 0;
 		text-align: center;
 	}
-}
+}*/
