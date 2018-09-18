@@ -186,11 +186,13 @@
 @media only screen and (max-width: 1366px) {
 	.wrap{
 		width:95%;
+		transition: 0.4s;
 	}
 }
 @media only screen and (max-width: 1280px) {
 	.wrap{
 		width:95%;
+		transition: 0.4s;
 	}
 	.ei-title h2 {
 		font-size: 2em;
@@ -199,6 +201,7 @@
 @media only screen and (max-width: 1024px) {
 	.wrap{
 		width:95%;
+		transition: 0.4s;
 	}
 	.ei-slider-thumbs {
 		width: 86% !important;
@@ -216,19 +219,21 @@
 @media only screen and (max-width: 800px) {
 	.wrap{
 		width:95%;
+		transition: 0.4s;
 	}
 	.hide1{
 		display: none;
 	}
-	.ei-slider-thumbs li a span {
-		font-size: 13px;
+	.ei-slider-thumbs li a span,p {
+		display: none;
 	}
+	
 	.ei-slider-thumbs {
 		width: 88% !important;
 		left: 0%;
 	}
 	.slider {
-		padding-bottom: 14%;
+		padding-bottom: 0;
 	}
 	.ei-slider-thumbs li {
 		width: 24.3333% !important;
@@ -237,8 +242,8 @@
 		top: -66px;
 	}
 	.image1_of_3 span.tag {
-		padding: 10px;
-		font-size: 13px;
+		padding: 0;
+		font-size: 11px;
 	}
 	.ei-title {/*
 		right: 5%;
@@ -254,6 +259,7 @@
 @media only screen and (max-width: 640px) {
 	.wrap{
 		width:95%;
+		transition: 0.4s;
 	}
 	.ei-title {/*
 		right: 5%;
@@ -275,6 +281,7 @@
 @media only screen and (max-width: 480px) {
 	.wrap{
 		width:95%;
+		transition: 0.4s;
 	}
 	.ei-title {/*
 		right: 5%;
@@ -290,7 +297,7 @@
 	background: #ffffff;
 	}
 	.slider {
-		padding-bottom: 20%;
+		padding-bottom:0;
 	}
 	.image1_of_3 span {
 		top: -50px;
