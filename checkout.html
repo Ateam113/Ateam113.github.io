@@ -35,13 +35,9 @@
                     <a href="index.html"><img src="images/logo.png" alt=""/></a>
                 </div>
                 <!-- login / register -->
-                <div class="log_reg">
-                    <ul>
-                        <li><a href="login.html">Login</a> </li>
-                        <span class="log"> or </span>
-                        <li><a href="register.html">Register</a> </li>
-                        <div class="clear"></div>
-                    </ul>
+                <div class="user">
+                    <a href="#"><img src="images/user.png" alt="" style="width: 19px; height: 19px"></a>
+                    <p> Nguyen Ngoc Anh</p>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -53,8 +49,8 @@
             <!-- Thanh navigation bar  -->
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about.html">About</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="products.html">Bakery</a></li>
                     <li><a href="sweets.html">Sweets</a></li>
                     <li> <a href="gift hampers.html" title=""> Gift</a></li>
@@ -70,7 +66,7 @@
             <nav id="menu-left">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li ><a href="about.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="products.html">Bakery</a></li>
                     <li><a href="products.html">Sweets</a></li>
                     <li> <a href="gift hampers.html" title=""> Gift</a></li>
@@ -82,85 +78,104 @@
             <!-- Tạo vùng đánh giá bên phải header dưới -->
             <div class="header_right">
                 <ul>
-                    <li><a href="#"><i  class="art"></i><span class="color1">0</span></a></li>
-                    <li><a href="checkout.html"><i  class="cart"></i><span>0</span></a></li>
+                    <li><a href="#"><i  class="art"></i><span class="color1">10</span></a></li>
+                    <li><a href="#"><i  class="cart"></i><span>1</span></a></li>
                 </ul>
             </div>
             <div class="clear"></div>
         </div>
     </div>
     <!-------------------------------------------------   Kết thúc header   ----------------------------------------->
+    
 
-    <!-------------------------------------------------   Bắt đầu Main      ----------------------------------------->
+    <!-- start top_bg -->
     <div class="top_bg">
         <div class="wrap">
             <div class="main_top">
-                <h2 class="style">about us</h2>
+                <h2 class="style">Check Out</h2>
+            </div>
+        </div>
+    </div>
+    <div class="main_bg">
+        <div class="wrap">
+            <div class="main">
+                <div class="address_arrival">
+                    <div class="address">
+                        <img src="images/user.png" width="19px" height="19px"> <p>shipping address</p>
+                    </div>
+                    <div class="my_address">
+                        <p>
+                            Nguyen Ngoc Anh (+84) 943981565  &nbsp; &nbsp; &nbsp; 16 Le Dai Hanh, Tp Thai Binh, Thai Binh 
+
+                            <a href="#" title="">Default</a>
+
+                            <a href="#" title="">Change</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="checkout">
+                    <table>
+                          <tr>
+                            <th style="width: 60%">Products</th>
+                            <th style="width: 20%">Price</th>
+                            <th style="width: 10%">Quantity</th>
+                            <th style="width: 10%"> Price</th>
+                          </tr>
+                          <tr>
+                            <td>
+                                <img src="images/blog.jpg" > Treat Time Box
+                            </td>
+                            <td>$4</td>
+                            <td>10</td>
+                            <td>$40</td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td>Products Price</td>
+                              <td>$40</td>
+                          </tr>
+                    </table>
+                </div>
+                <div class="under_checkout">
+                    <div class="span_select" style=""  >
+                        <p>
+                        Select your payment
+                    </p>
+                    </div>
+                    <div class="span_delivery">
+                        <select >
+                            <option value="">Cash on delivery</option>
+                            <option value="">Credit card</option>
+                        </select>
+                    </div>
+                
+                    
+                <div class="clear"></div>
+                </div>
+                <div class="sum1">
+                    <div class="total_price" style="">
+                        <p>Products Price: $40</p>
+                        <br>
+                        <p >Shipping Payment: $10</p>
+                        <div class="under_line_price"></div>
+                        <br >
+                        <p style="padding-top: 10px">Total: $50</p>
+                        <br>
+                    </div>
+                    
+                    <div class="clear"></div>
+                </div>
+
+                <div style="margin-top: 15px">
+                    <button type="button" class="complete_buy_now" onclick="complete()">Buy Now</button>
+                </div>
             </div>
         </div>
     </div>
     <!-- start main -->
-    <div class="main_bg">
-        <div class="wrap">
-            <div class="main">
-                <div class="about">
-                    <div class="grid-img img_style">
-                        <img src="images/about_pic2.jpg" alt="">
-                    </div>
-                    <div class="cont-grid">
-                        <div class="cont-grid-text">
-                            <h4>London's most renowned cake shop... </h4>
-
-                            <div class="underline_h4"></div>
-                            <p class="para ">Konditor and Cook is London’s most renowned cake shop. Our reputation is down to the quality of our cakes and the attention to detail and care we put into every product we sell. From the most beautiful wedding cake to our world famous brownies, every product is baked with the same amount of care and attention to make sure we always fulfil our aim of bringing joy and pleasure to our customers through our love of baking.</p>
-                            <p class="para ">Konditor and Cook is the creation of expert baker Gerhard Jenne. Born in Freiburg, Germany, Gerhard’s first introduction to baking was licking the bowls after his mother had baked her delicious Apfelkuchen.</p>
-                            
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                    <br>
-                </div>
-
-                <div class="about">
-                    <div class="grid-img_2 img_style">
-                        <img src="images/about_pic3.jpg" alt="">
-                    </div>
-                    <div class="cont-grid_2">
-                        <div class="cont-grid-text">
-                            <h4>London's most renowned cake shop... </h4>
-                            <br>
-                            <div class="underline_h4"></div>
-                            <p class="para ">In 1993 Gerhard found a small bakery in Waterloo that was for sale and Konditor and Cook was born! Over 20 years later and Konditor & Cook now have a legendary status in London as the makers of delicious, beautiful cakes ussing only the finest natural ingredients. We now have six stores across London that bake and deliver beautiful cakes on a daily basis with the aim of bringing joy to all of our customers!</p>
-
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                    <br>
-                </div>
-
-                <div class="about">
-                    <div class="grid-img img_style">
-                        <img src="images/about_pic4.jpg" class="ending_pic">
-                    </div>
-                        <div class="cont-grid">
-                            <div class="cont-grid-text">
-                                <h4>An Ethos That Has Stuck</h4>
-                                <br>
-                                <div class="underline_h4"></div>
-                                <p class="para ">Our success is down to our high standards of training, consistency, creativity and quality control, which we apply throughout the company from our handmade cakes and sweets to our freshly made savoury dishes. Passion and care is at the heart of everything we do and we work hard to make sure all our products are baked with love so our customers have an unforgettable </p>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <br>
-                </div>
-
-               
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
 
     <!--------------- bắt đầu footer cuối ---------------------->
@@ -202,6 +217,16 @@
         </div>
     </div>
     <!-- kết thúc footer cuối -->
+    <script type="text/javascript">
+        function complete() {
+            alert("Congrat! You have successfully ordered");
+             if (confirm("Thank you for your order. Do you want continue order?")) {
+            window.open("index.html", "_self")
+             } 
+            
+        }
+
+    </script>
 </body>
 
 </html>

@@ -5,7 +5,8 @@
     <title>London Bakery and Sweets</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel='icon' href='images/brakery/pic14.jpg' type='image/x-icon'/ >
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel='icon' href='images/mini.jpg' type='image/x-icon'/ >
     <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--- start-mmmenu-script---->
@@ -18,20 +19,11 @@
         $('nav#menu-left').mmenu();
     });
     </script>
-    </script>
-    <!-- start top_js_button -->
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript">
-    // Tự động cuôn lên top khi click vào nút top góc phải cuối màn hình
-    jQuery(document).ready(function($) {
-        $(".scroll").click(function(event) {
-            event.preventDefault();
-            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
-        });
-    });
-    </script>
 </head>
-
 
 <body>
     <!-- start header / Phần header trên -->
@@ -61,10 +53,10 @@
             <!-- Thanh navigation bar  -->
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li ><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li class="active"><a href="products.html">Bakery</a></li>
-                    <li ><a href="sweets.html">Sweets</a></li>
+                    <li><a href="sweets.html">Sweets</a></li>
                     <li> <a href="gift hampers.html" title=""> Gift</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -80,7 +72,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="products.html">Bakery</a></li>
-                    <li><a href="sweets.html">Sweets</a></li>
+                    <li><a href="products.html">Sweets</a></li>
                     <li> <a href="gift hampers.html" title=""> Gift</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -90,28 +82,29 @@
             <!-- Tạo vùng đánh giá bên phải header dưới -->
             <div class="header_right">
                 <ul>
-                    <li><a href="#"><i  class="art"></i><span class="color1">30</span></a></li>
-                    <li><a href="#"><i  class="cart"></i><span>0</span></a></li>
+                    <li><a href="#"><i  class="art"></i><span class="color1">0</span></a></li>
+                    <li><a href="checkout.html"><i  class="cart"></i><span>0</span></a></li>
                 </ul>
             </div>
             <div class="clear"></div>
         </div>
     </div>
+    <!-------------------------------------------------   Kết thúc header   ----------------------------------------->
     <!-- start top_bg -->
     <div class="top_bg">
         <div class="wrap">
             <div class="main_top">
-                <h2 class="style">our Bakery</h2>
+                <h2 class="style">Bakery and Sweets</h2>
             </div>
         </div>
     </div>
-    <!-- start main -->
+    
+    <!-------------------------------------------------   Bắt đầu Main      ----------------------------------------->
     <div class="main_bg">
         <div class="wrap">
             <div class="main">
                 <div class="top_main">
                     <h2>new arrivals </h2>
-                    <a href="#">show all</a>
                     <div class="clear"></div>
                 </div>
                 <!-- start grids_of_3 -->
@@ -119,29 +112,29 @@
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/baked-cupcakes-on-brown-wooden-table.jpg" alt="">
-				<h3>baked-cupcakes-on-brown-wooden-table</h3>
-				<span class="price">$145,99</span>
+				<h3>baked cupcakes</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/closeup-photo-of-baked-pastry.jpg" alt="">
-				<h3>closeup-photo-of-baked-pastry</h3>
-				<span class="price">$185,99</span>
-				<span class="price1 bg">on sale</span>
+				<h3>baked pastry</h3>
+				<span class="price">$8,99</span>
+				<span class="price_title bg">on sale <br>-30%</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/four-baked-donuts.jpg" alt="">
-				<h3>four-baked-donuts</h3>
-				<span class="price">$145,99</span>
+				<h3>baked donuts</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="clear"></div>
                 </div>
                 <div class="top_main">
-                    <h2>best sellers of the month</h2>
+                    <h2>Other Cake</h2>
                     <a href="#">show all</a>
                     <div class="clear"></div>
                 </div>
@@ -150,23 +143,23 @@
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/person-holding-brown-cookie.jpg" alt="">
-				<h3>person-holding-brown-cookie</h3>
-				<span class="price">$145,99</span>
+				<h3>Brown cookie</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/person-holding-round-gray-and-multicolored-container.jpg" alt="">
-				<h3>person-holding-round-gray-and-multicolored-container</h3>
-				<span class="price">$185,99</span>
+				<h3>multicolored cake</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/pink,-blue,-and-chocolate-with-sprinkles-doughnuts-on-table.jpg" alt="">
-				<h3>pink,-blue,-and-chocolate-with-sprinkles-doughnuts-on-table</h3>
-				<span class="price">$145,99</span>
-				<span class="price1 bg1">out of stock</span>
+				<h3>mixed doughnuts</h3>
+				<span class="price">$5,99</span>
+				<span class="price_title bg1">out of stock</span>
 			</a>
                     </div>
                     <div class="clear"></div>
@@ -175,23 +168,23 @@
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/samuel-yongbo-kwon-254178-unsplash.jpg" alt="">
-				<h3>samuel-yongbo-kwon-254178-unsplash</h3>
-				<span class="price">$145,99</span>
+				<h3>yongbo sweet cakes</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/selective-focus-photo-of-food-on-top-of-white-surface.jpg" alt="">
-				<h3>selective-focus-photo-of-food-on-top-of-white-surface</h3>
-				<span class="price">$185,99</span>
+				<h3>Chocolate</h3>
+				<span class="price">$3,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/two-macarons-in-square-white-plate.jpg" alt="">
-				<h3>two-macarons-in-square-white-plate</h3>
-				<span class="price">$145,99</span>
-				<span class="price1 bg1">out of stock</span>
+				<h3>Peggy Porschen</h3>
+				<span class="price">$7,99</span>
+				<span class="price_title bg1">out of stock</span>
 			</a>
                     </div>
                     <div class="clear"></div>
@@ -201,23 +194,22 @@
                         <a href="details.html">
 				<img src="images/brakery/pink-miringues.jpg" alt="">
                 <!-- https://unsplash.com/photos/DOExRUPPwYY -->
-				<h3>pink-miringues</h3>
-				<span class="price">$145,99</span>
+				<h3>pink miringues</h3>
+				<span class="price">$6,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/baked-cookies.jpg" alt="">
-				<h3>baked-cookies</h3>
-				<span class="price">$185,99</span>
+				<h3>baked cookies</h3>
+				<span class="price">$4,49</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/black-and-brown-pastries.jpg" alt="">
-				<h3>black-and-brown-pastries</h3>
-				<span class="price">$145,99</span>
-				<span class="price1 bg1">out of stock</span>
+				<h3>Brown pastries</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="clear"></div>
@@ -226,181 +218,55 @@
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/bread-on-brown-wooden-tray.jpg" alt="">
-				<h3>bread-on-brown-wooden-tray</h3>
-				<span class="price">$145,99</span>
+				<h3>Tlinh Cake</h3>
+                <span class="price_title bg1">out of stock</span>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/sliced-bread-on-table.jpg" alt="">
-				<h3>sliced-bread-on-table</h3>
-				<span class="price">$185,99</span>
+				<h3>Salted cake</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="grid1_of_3">
                         <a href="details.html">
 				<img src="images/brakery/assorted-pastries-on-table.jpg" alt="">
-				<h3>assorted-pastries-on-table</h3>
-				<span class="price">$145,99</span>
-				<span class="price1 bg1">out of stock</span>
+				<h3>Magic Cake</h3>
+				<span class="price">$5,99</span>
 			</a>
                     </div>
                     <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
-                <!-- start grids_of_2 -->
-                <div class="grids_of_2">
-                    <!-- Chính sách free ship -->
-                    <div class="grid1_of_2">
-                        <div class="span1_of_2">
-                            <h2>free shipping</h2>
-                            <p>Lorem Ipsum is simply dummy typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <br>
-                            <h2>testimonials</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. [...]</p>
-                        </div>
-                    </div>
-                    <!-- Khu vực blog -->
-                    <div class="grid1_of_2 bg">
-                        <h2>blog news</h2>
-                        <div class="grid_date">
-                            <div class="date1">
-                                <h4>Sept 18</h4>
-                            </div>
-                            <div class="date_text">
-                                <h4><a href="#"> Donec vehicula est ac augue consectetur,</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="grid_date">
-                            <div class="date1">
-                                <h4>Sept 14</h4>
-                            </div>
-                            <div class="date_text">
-                                <h4><a href="#"> The standard chunk of Lorem Ipsum used since ,,</a></h4>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from. </p>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
+                </div>
+
                     <div class="clear"></div>
-                    <!-- Kết thúc khu vực blog -->
-                </div>
             </div>
         </div>
     </div>
-    <!-- Bắt đầu footer trên -->
-    <div class="footer_top">
-        <div class="wrap">
-            <!-- main footer -->
-            <div class="footer">
-                <!-- vùng chứa main footer -->
-                <div class="span_of_3">
-                    <!--Giờ mở cửa -->
-                    <div class="span1_of_3 opening">
-                        <h3>Hours of Operation</h3>
-                        <p> From Monday to Sartuday </p>
-                        <p> Opening Time: 6AM to 8PM</p>
-                        <br>
-                        <p> On Sunday </p>
-                        <p> Opening Time: 7AM to 6PM</p>
-                    </div>
-                    <!-- Nhận xét từ khách hang -->
-                    <div class="span1_of_3">
-                        <h3>Commend from Customers</h3>
-                        <p><a href="#">@Smiths</a> It's the best place where we usually visit every week. Good food, healthy and best service. I recommend it is the one of the best bakery in London </p>
-                        <p class="top">4 days ago</p>
-                        <p class="top"><a href="#">@Anna</a> I love the place. So peaceful and quiet. I can use my hold day at their for working and reading books. And the bakers are awesome. </p>
-                        <p class="top">7 days ago</p>
-                    </div>
-                    <!-- Các kênh vận chuyển và thanh toán -->
-                    <div class="span1_of_3">
-                        <h3> Payment </h3>
-                        <ul class="support1">
-                            <li>
-                                <a href="" title=""><img src="https://theme.hstatic.net/1000061125/1000364405/14/pay1.png?v=201" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="" title=""><img src="https://theme.hstatic.net/1000061125/1000364405/14/pay2.png?v=201" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="" title=""><img src="https://theme.hstatic.net/1000061125/1000364405/14/pay3.png?v=201" alt=""></a>
-                            </li>
-                        </ul>
-                        <br>
-                        <h3> Delivery </h3>
-                        <ul class="support1">
-                            <li>
-                                <a href="" title=""><img src="https://theme.hstatic.net/1000061125/1000364405/14/dt1.png?v=201" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="" title=""><img src="https://theme.hstatic.net/1000061125/1000364405/14/dt2.png?v=201" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="" title=""><img src="https://theme.hstatic.net/1000061125/1000364405/14/dt3.png?v=201" alt=""></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <!-- kết thúc vùng chứa main footer -->
-            </div>
-            <!-- kết thúc main footer -->
-        </div>
-    </div>
-    <!-- kết thúc footer trên -->
-    <!-- bắt đầu footer giữa  -->
-    <div class="footer_mid">
-        <div class="wrap">
-            <div class="footer">
-                <!-- tìm kiếm -->
-                <div class="f_search">
-                    <form>
-                        <input type="text" value="" placeholder="Enter email for newsletter" />
-                        <input type="submit" value="" />
-                    </form>
-                </div>
-                <!-- các kênh mạng xã hội -->
-                <div class="soc_icons">
-                    <ul>
-                        <li><a class="icon1" href="#"></a></li>
-                        <li><a class="icon2" href="#"></a></li>
-                        <li><a class="icon3" href="#"></a></li>
-                        <li><a class="icon4" href="#"></a></li>
-                        <li><a class="icon5" href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-    </div>
-    <!-- kết thúc footer giữa -->
-    <!-- bắt đầu footer cuối -->
+    <!--------------- bắt đầu footer cuối ---------------------->
     <div class="footer_bg">
         <div class="wrap">
             <div class="footer">
                 <!-- Script để thanh cuộn cuộn mượt hơn lên top-->
                 <script type="text/javascript">
                 $(document).ready(function() {
-
                     var defaults = {
                         containerID: 'toTop', // fading element id
                         containerHoverID: 'toTopHover', // fading element hover id
                         scrollSpeed: 1200,
                         easingType: 'linear'
                     };
-
-
+                    // khi cuộn xuống 600px thì onTop tự xuất hiện
                     $().UItoTop({ easingType: 'easeOutQuart' });
-
                 });
                 </script>
                 <!-- nút tự động về đầu trang -->
-                <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+                <a href="#" id="toTop"><span id="toTopHover"></span></a>
                 <!-- kết thúc phần cuộn lên đầu trang -->
                 <!-- khu vực liên kết nội trang -->
-                <div class="f_nav1">
+                <div class="bottom-nav">
                     <ul>
                         <li><a href="index.html">Home /</a></li>
                         <li><a href="#">Support /</a></li>
@@ -411,7 +277,7 @@
                 </div>
                 <!-- bắt đầu khu vực quản lý bản quyền nội dung -->
                 <div class="copy">
-                    <p class="link"><span>© All rights reserved | Template by&nbsp;<a href="#"> A-Team </a></span></p>
+                    <p class="link"><span> Create and Template by&nbsp;<a href="#"> A-Team </a></span></p>
                 </div>
                 <div class="clear"></div>
             </div>
